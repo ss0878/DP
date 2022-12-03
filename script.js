@@ -612,7 +612,7 @@ const app = {
     // Handles CD enlargement / reduction
     document.onscroll = function () {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      
+      const newCdWidth = cdWidth - scrollTop;
 
       cd.style.width = newCdWidth > 0 ? newCdWidth + "px" : 0;
       cd.style.opacity = newCdWidth / cdWidth;
