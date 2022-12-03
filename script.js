@@ -612,7 +612,7 @@ const app = {
     // Handles CD enlargement / reduction
     document.onscroll = function () {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      const newCdWidth = cdWidth - scrollTop;
+      const newCdWidth = cdWidth;
 
       cd.style.width = newCdWidth > 0 ? newCdWidth + "px" : 0;
       cd.style.opacity = newCdWidth / cdWidth;
@@ -740,7 +740,7 @@ const app = {
     setTimeout(() => {
       $(".song.active").scrollIntoView({
         behavior: "smooth",
-        block: "nearest"
+        block: "center"
       });
     }, 300);
   },
