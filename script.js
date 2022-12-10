@@ -899,7 +899,7 @@ album : 'Times Music',
         behavior: "smooth",
         block: "center"
       });
-    }, 300);
+    }, 400);
   },
   loadCurrentSong: function () {
     heading.textContent = this.currentSong.name;
