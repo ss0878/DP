@@ -1,4 +1,3 @@
-// Một số bài hát có thể bị lỗi do liên kết bị hỏng. Vui lòng thay thế liên kết khác để có thể phát
 // Some songs may be faulty due to broken links. Please replace another link so that it can be played
 
 const $ = document.querySelector.bind(document);
@@ -29,27 +28,80 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
+      image : 'https://lq.djjohal.com/covers/728873/The%20Lion.jpg',
+      name : 'The Lion',
+      singer : 'Varinder Brar',
+album : 'Varinder Brar Music',
+      path : 'https://hd1.djjohal.com/320/514772/The%20Lion%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
+      name : 'SUPREME',
+      singer : 'Amrit Maan',
+album : 'XPENSIVE',
+      path : 'https://hd1.djjohal.com/320/514725/SUPREME%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728843/Lalkaare.jpg',
+      name : 'Lalkaare',
+      singer : 'Harjot , Deepak Dhillon',
+album : 'True Music',
+      path : 'https://hd1.djjohal.com/320/514729/Lalkaare%20-%20Harjot%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728845/Landlord.jpg',
+      name : 'Landlord',
+      singer : 'Geeta Zaildar',
+album : 'T-Series',
+      path : 'https://hd1.djjohal.com/320/514731/Landlord%20-%20Geeta%20Zaildar%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
+      name : 'Amsterdam',
+      singer : 'Jaz Dhami',
+album : 'Jaz Dhami Music',
+      path : 'https://hd1.djjohal.com/320/514701/Amsterdam%20-%20Jaz%20Dhami%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728839/DONT%20YOU%20KNOW.jpg',
+      name : 'DONT YOU KNOW',
+      singer : 'Amrit Maan',
+album : 'XPENSIVE',
+      path : 'https://hd1.djjohal.com/320/514722/DONT%20YOU%20KNOW%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+  },
+{
+      image : 'https://lq.djjohal.com/covers/728802/Slang.jpg',
+      name : 'Slang',
+      singer : 'Mani Longia',
+album : 'Single Track Studios',
+      path : 'https://hd1.djjohal.com/320/514655/Slang%20-%20Mani%20Longia%20(DJJOhAL.Com).mp3'
+  },
+{
       image : 'https://lq.djjohal.com/covers/728793/2NI.jpg',
       name : '2NI',
       singer : 'Garry Sandhu',
+album : 'Fresh Media Records',
       path : 'https://hd1.djjohal.com/320/514643/2NI%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
   },
 {
       image : 'https://lq.djjohal.com/covers/728796/3%20-%204%20Yaar.jpg',
       name : '3 - 4 Yaar',
       singer : 'Karaj Randhawa',
+album : 'Karaj Randhawa Music',
       path : 'https://hd1.djjohal.com/320/514646/3%20%204%20Yaar%20-%20Karaj%20Randhawa%20(DJJOhAL.Com).mp3'
   },
 {
       image : 'https://lq.djjohal.com/covers/728780/Her.jpg',
       name : 'Her',
       singer : 'Shubh',
+album : 'Shubh Music',
       path : 'https://hd1.djjohal.com/320/514625/Her%20-%20Shubh%20(DJJOhAL.Com).mp3'
   },
 {
       image : 'https://lq.djjohal.com/covers/728781/Tu%20He%20Dass.jpg',
       name : 'Tu He Dass',
       singer : 'Harvi',
+album : 'Bang Music',
       path : 'https://hd1.djjohal.com/320/514626/Tu%20He%20Dass%20-%20Harvi%20(DJJOhAL.Com).mp3'
   },
 {
@@ -155,40 +207,16 @@ const app = {
       path : 'https://hd1.djjohal.com/320/514489/Gal%20Ban%20Jae%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
   },
   {
-      image : 'https://lq.djjohal.com/covers/728691/Wallpaper.jpg',
-      name : 'Wallpaper',
-      singer : 'Kadir Thind',
-      path : 'https://hd1.djjohal.com/320/514488/Wallpaper%20-%20Kadir%20Thind%20(DJJOhAL.Com).mp3'
-  },
-  {
       image : 'https://lq.djjohal.com/covers/728688/Geet%20Banuga.jpg',
       name : 'Geet Banuga',
       singer : 'Kaka',
       path : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
   },
   {
-      image : 'https://lq.djjohal.com/covers/728686/Kangne.jpg',
-      name : 'Kangne',
-      singer : 'Kaur B',
-      path : 'https://hd1.djjohal.com/320/514483/Kangne%20-%20Kaur%20B%20(DJJOhAL.Com).mp3'
-  },
-  {
       image : 'https://lq.djjohal.com/covers/728673/Hustler.jpg',
       name : 'Hustler',
       singer : 'Sukh Lotey',
       path : 'https://hd1.djjohal.com/320/514470/Hustler%20-%20Sukh%20Lotey%20(DJJOhAL.Com).mp3'
-  },
-  {
-      image : 'https://lq.djjohal.com/covers/728677/Karobaar.jpg',
-      name : 'Karobaar',
-      singer : 'Zora Randhawa',
-      path : 'https://hd1.djjohal.com/320/514474/Karobaar%20-%20Zora%20Randhawa%20(DJJOhAL.Com).mp3'
-  },
-  {
-      image : 'https://lq.djjohal.com/covers/728670/Wang%20Golden.jpg',
-      name : 'Wang Golden',
-      singer : 'Sajjan Adeeb',
-      path : 'https://hd1.djjohal.com/320/514467/Wang%20Golden%20-%20Sajjan%20Adeeb%20(DJJOhAL.Com).mp3'
   },
   {
       image : 'https://lq.djjohal.com/covers/728672/Mehfilan.jpg',
@@ -215,12 +243,6 @@ const app = {
       path : 'https://hd1.djjohal.com/320/514451/Wangan%20-%20Shivjot%20(DJJOhAL.Com).mp3'
   },
   {
-      image : 'https://lq.djjohal.com/covers/728658/Munda%20Sardaran%20Da.jpg',
-      name : 'Munda Sardaran Da',
-      singer : 'Jordan Sandhu',
-      path : 'https://hd1.djjohal.com/320/514450/Munda%20Sardaran%20Da%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
-  },
-  {
       image : 'https://lq.djjohal.com/covers/728656/Jatt%20Bolde.jpg',
       name : 'Jatt Bolde',
       singer : 'Gippy Grewal, Jazzy B',
@@ -243,12 +265,6 @@ const app = {
       name : 'Colt',
       singer : 'Pavitar Lassoi',
       path : 'https://hd1.djjohal.com/320/512214/Colt%20-%20Pavitar%20Lassoi%20(DJJOhAL.Com).mp3'
-  },
-  {
-      image : 'https://lq.djjohal.com/covers/728610/Pooranmashi.jpg',
-      name : 'Pooranmashi',
-      singer : 'Kulwinder Billa',
-      path : 'https://hd1.djjohal.com/320/514387/Pooranmashi%20-%20Kulwinder%20Billa%20(DJJOhAL.Com).mp3'
   },
   {
       image : 'https://lq.djjohal.com/covers/728609/Wanted.jpg',
@@ -299,12 +315,6 @@ const app = {
       path : 'https://hd1.djjohal.com/320/514351/Zara%20Faasley%20Te%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
   },
 {
-      image : 'https://lq.djjohal.com/covers/728563/Mithiyan%20Jailan.jpg',
-      name : 'Mithiyan Jailan',
-      singer : 'Ranjit Bawa',
-      path : 'https://hd1.djjohal.com/320/514326/Mithiyan%20Jailan%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
-  },
-{
       image : 'https://lq.djjohal.com/covers/728561/13%20Pind.jpg',
       name : '13 Pind',
       singer : 'Rajvir Jawanda',
@@ -319,7 +329,7 @@ const app = {
 {
       image : 'https://lq.djjohal.com/covers/728542/Ak%2047.jpg',
       name : 'Ak 47',
-      singer : 'Ninja',
+      singer : 'Ninja & Deep Jandu',
       path : 'https://hd1.djjohal.com/320/514296/Ak%2047%20-%20Ninja%20(DJJOhAL.Com).mp3'
   },
   {
@@ -411,6 +421,13 @@ const app = {
       name : 'Snowfall',
       singer : 'Jordan Sandhu',
       path : 'https://hd1.djjohal.com/320/514180/Snowfall%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/728363/Ferozi%20Koka.jpg',
+      name : 'Ferozi Koka',
+      singer : 'Ranjit Bawa',
+album : 'Cocktail Music',
+      path : 'https://hd1.djjohal.com/320/514037/Ferozi%20Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
   },
   {
       image : 'https://lq.djjohal.com/covers/728459/6%20L.jpg',
@@ -557,10 +574,150 @@ const app = {
       path : 'https://hd1.djjohal.com/320/513925/Gun%20n%20Mic%20-%20Amantej%20Hundal%20(DJJOhAL.Com).mp3'
   },
   {
-      image : 'https://i.ytimg.com/vi/o84t0LSOBwI/hqdefault.jpg',
+      image : 'https://lq.djjohal.com/covers/728871/Gaddi%20Red%20Challenger.jpg',
       name : 'Gaddi Red Challenger',
       singer : 'Babbu',
-      path : 'https://github.com/ss0878/dpm/blob/main/Babbu%20-%20Gaddi%20Red%20Challenger.mp3?raw=true'
+      path : 'https://hd1.djjohal.com/320/514770/Gaddi%20Red%20Challenger%20-%20Babbulicious%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/723322/Koka.jpg',
+      name : 'Koka',
+      singer : 'Ranjit Bawa',
+album : 'Brand B',
+      path : 'https://hd1.djjohal.com/320/507450/Koka%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/728191/Gaddi%20Vich.jpg',
+      name : 'Gaddi Vich',
+      singer : 'Dilpreet Dhillon & Kuar B',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/513819/Gaddi%20Vich%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/728117/Band%20Theke.jpg',
+      name : 'Band Theke',
+      singer : 'Jordan Sandhu',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/513723/Band%20Theke%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/728113/Just%20Round.jpg',
+      name : 'Just Round',
+      singer : 'Jass Bajwa',
+album : 'Mee Muzic',
+      path : 'https://hd1.djjohal.com/320/513708/Just%20Round%20-%20Jass%20Bajwa%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/727948/Right%20Left.jpg',
+      name : 'Right Left',
+      singer : 'Kulwinder Billa',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/513475/Right%20Left%20-%20Kulwinder%20Billa%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/727800/Patake.jpg',
+      name : 'Patake',
+      singer : 'Khan Bhaini & Gurlez Akhtar',
+album : 'Single Track Studio',
+      path : 'https://hd1.djjohal.com/320/513275/Patake%20-%20Khan%20Bhaini%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/727286/Kuwait%20Wala%20Koka.jpg',
+      name : 'Kuwait Wala Koka',
+      singer : 'Gurman Sandhu & Baani Sandhue',
+album : 'Desi Junction',
+      path : 'https://hd1.djjohal.com/320/512621/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu%20%20Baani%20Sandhu%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/727060/Nain.jpg',
+      name : 'Nain',
+      singer : 'Dilpreet Dhillon Ft. Mehar Vaani',
+album : 'White Hill Music',
+      path : 'https://hd1.djjohal.com/320/512335/Nain%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/727012/Tej%20Mitha.jpg',
+      name : 'Tej Mitha',
+      singer : 'Deep Bajwa',
+album : 'Team 7 Picture',
+      path : 'https://hd1.djjohal.com/320/512275/Tej%20Mitha%20-%20Deep%20Bajwa%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/726849/Dil%20Mangeya.jpg',
+      name : 'Dil Mangeya',
+      singer : 'Sajjan Adeeb',
+album : 'Sajjan Adeeb Music',
+      path : 'https://hd1.djjohal.com/320/512080/Dil%20Mangeya%20-%20Sajjan%20Adeeb%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/726830/Shehar%20Vichon%20Geda.jpg',
+      name : 'Shehar Vichon Geda',
+      singer : 'Jordan Sandhu',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/512061/Shehar%20Vichon%20Geda%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/726106/Jatt%20Flex.jpg',
+      name : 'Jatt Flex',
+      singer : 'Amrit Maan',
+album : 'Cocktail Music',
+      path : 'https://hd1.djjohal.com/320/511151/Jatt%20Flex%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/725994/Black%20Effect.jpg',
+      name : 'Black Effect',
+      singer : 'Jordan Sandhu',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/510999/Black%20Effect%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/725816/Kul%20Milake%20Jatt.jpg',
+      name : 'Kul Milake Jatt',
+      singer : 'Gurnam Bhullar',
+album : 'Desi Junction',
+      path : 'https://hd1.djjohal.com/320/510776/Kul%20Milake%20Jatt%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/725561/Sira%20Ft.%20Shipra%20Goyal.jpg',
+      name : 'Sira',
+      singer : 'Dilpreet Dhillon, Shipra Goyal',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/510473/Sira%20Ft%20Shipra%20Goyal%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/725551/Teri%20Life%20Meri%20Life%20Ft.%20Kaur%20B.jpg',
+      name : 'Teri Life Meri Life',
+      singer : 'R Nait & Kaur B',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/510450/Teri%20Life%20Meri%20Life%20Ft%20Kaur%20B%20-%20R%20Nait%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/725502/What%20Ve.jpg',
+      name : 'What Ve',
+      singer : 'Diljit Dosanjh & Nimrat Khaira',
+album : 'Diljit Dosanjh Music',
+      path : 'https://hd1.djjohal.com/320/510385/What%20Ve%20-%20Diljit%20Dosanjh%20%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/724582/Loud.jpg',
+      name : 'Loud',
+      singer : 'Ranjit Bawa',
+album : 'Loud',
+      path : 'https://hd1.djjohal.com/320/509156/Loud%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/723626/Be%20Ready%20Ft.%20Desi%20Crew.jpg',
+      name : 'Be Ready',
+      singer : 'Ninja Ft. Desi Crew',
+album : 'Happy Raikoti Music',
+      path : 'https://hd1.djjohal.com/320/507830/Be%20Ready%20Ft%20Desi%20Crew%20-%20Ninja%20(DJJOhAL.Com).mp3'
+  },
+  {
+      image : 'https://lq.djjohal.com/covers/723058/Jatt%20Te%20Jawani.jpg',
+      name : 'Jatt Te Jawani',
+      singer : 'Dilpreet Dhillon & Karan Aujla',
+album : 'Times Music',
+      path : 'https://hd1.djjohal.com/320/507096/Jatt%20Te%20Jawani%20-%20Dilpreet%20Dhillon%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
   }
   ],
   setConfig: function (key, value) {
