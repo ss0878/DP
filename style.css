@@ -164,10 +164,12 @@ header h2 {
 
 .song.active {
   background-color: var(--primary-color);
+  height: 100px;
 }
 
 .song:active {
   opacity: 0.8;
+  height: 100px;
 }
 
 .song.active .option,
