@@ -12,7 +12,7 @@
 body {
 	background: linear-gradient(-90deg, #c2674c, #5337c2, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 100vh;
 }
 
@@ -52,22 +52,23 @@ html {
 }
 
 .dashboard {
-  padding: 16px 16px 14px;
+  padding: 10px 10px 14px;
   background-color: #fff;
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
+  max-height: 320px;
   max-width: 480px;
   border-bottom: 1px solid #ebebeb;
   padding-top: 20px;
-  border-radius: 10px;
+  border-radius: 200px 200px 0px 0px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 /* HEADER */
 header {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 header h4 {
@@ -84,7 +85,8 @@ header h2 {
 .cd {
   display: flex;
   margin: auto;
-  width: 200px;
+  width: 100px;
+  
 }
 
 .cd-thumb {
@@ -129,10 +131,11 @@ header h2 {
 .progress {
   width: 100%;
   -webkit-appearance: none;
-  height: 6px;
-  background: #d3d3d3;
+  height: 20px;
+  background: #bab7b7;
   outline: none;
-  opacity: 0.7;
+  opacity: 5;
+  border-radius: 200px 200px 290px 200px;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
 }
@@ -140,16 +143,17 @@ header h2 {
 .progress::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 12px;
-  height: 6px;
+  width: 20px;
+  height: 30px;
+  border-radius: 200px 200px 290px 200px;
   background-color: var(--primary-color);
   cursor: pointer;
 }
 
 /* PLAYLIST */
 .playlist {
-  margin-top: 408px;
-  padding: 12px;
+  padding: 15px;
+  scroll-padding-bottom: 50px;
 }
 
 .song {
