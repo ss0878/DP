@@ -27,13 +27,221 @@ const app = {
   // (1/2) Uncomment the line below to use localStorage
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
-    {
+	{
+        image : 'https://lq.djjohal.com/covers/729116/Unique.jpg',
+        name : 'Unique',
+        singer : 'Jimmy Mahal',
+ 	album : 'Jimmy Mahal Music',
+	released : '14-01-2023',
+        path : 'https://hd1.djjohal.com/320/515105/Unique%20-%20Jimmy%20Mahal%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729115/Handmade.jpg',
+        name : 'Handmade',
+        singer : 'Gurmaan Sahota',
+ 	album : 'Jass Records',
+	released : '14-01-2023',
+        path : 'https://hd1.djjohal.com/320/515104/Handmade%20-%20Gurmaan%20Sahota%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729113/Taur%20Tappa.jpg',
+        name : 'Taur Tappa',
+        singer : 'Shivjot',
+ 	album : 'Dose of Music',
+	released : '14-01-2023',
+        path : 'https://hd1.djjohal.com/320/515102/Taur%20Tappa%20-%20Shivjot%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729107/Ego.jpg',
+        name : 'Ego',
+        singer : 'Zora Randhawa FT. Naseeb',
+ 	album : 'Dr Zeus Music',
+	released : '12-01-2023',
+        path : 'https://hd1.djjohal.com/320/515095/Ego%20-%20Zora%20Randhawa%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729106/Hold%20Sway.jpg',
+        name : 'Hold Sway',
+        singer : 'Harman Brar & Sabi Bhinder',
+ 	album : 'Jatt Life Studios',
+	released : '12-01-2023',
+        path : 'https://hd1.djjohal.com/320/515094/Hold%20Sway%20-%20Harman%20Brar%20%20Sabi%20Bhinder%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729102/Dil%20Mangda.jpg',
+        name : 'Dil Mangda',
+        singer : 'Rajvir Jawanda',
+ 	album : 'Rajvir Jawanda Music',
+	released : '12-01-2023',
+        path : 'https://hd1.djjohal.com/320/515090/Dil%20Mangda%20-%20Rajvir%20Jawanda%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729112/No%20Cap.jpg',
+        name : 'No Cap',
+        singer : 'Harp Multani',
+ 	album : '84 Records',
+	released : '12-01-2023',
+        path : 'https://hd1.djjohal.com/320/515101/No%20Cap%20-%20Harp%20Multani%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729095/Court.jpg',
+        name : 'Court',
+        singer : 'Gulab Sidhu',
+ 	album : 'Times Music',
+	released : '11-01-2023',
+        path : 'https://hd1.djjohal.com/320/515083/Court%20-%20Gulab%20Sidhu%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729096/Iko%20Zindagi.jpg',
+        name : 'Iko Zindagi',
+        singer : 'Inder Chahal',
+ 	album : 'Alpha Studios',
+	released : '11-01-2023',
+        path : 'https://hd1.djjohal.com/320/515084/Iko%20Zindagi%20-%20Inder%20Chahal%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Rakaan Top Di',
+        singer : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515069/Rakaan%20Top%20Di%20Ft%20Gurlez%20Akhtar%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Imagination',
+        singer : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515067/Imagination%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729086/Identity.jpg',
+        name : 'Identity',
+        singer : 'Gurnam Bhullar',
+ 	album : 'Imagination',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515066/Identity%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	{
+	img: 'https://lq.djjohal.com/covers/729089/Appa.jpg',
+        name : 'Appa',
+        singer : 'Navv Inder &Gurlez Akhtar',
+ 	album : 'Gem Tunes Punjabi',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515075/Appa%20-%20Navv%20Inder%20Gurlez%20Akhtar%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729087/Long%20Route.jpg',
+        name : 'Long Route',
+        singer : 'Amar Sehmbi',
+ 	album : 'Jass Records',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515073/Long%20Route%20-%20Amar%20Sehmbi%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729090/Khrey%20Khrey.jpg',
+        name : 'Khrey Khrey',
+        singer : 'Hunar Sidhu & Gurlez Akhter',
+ 	album : 'One Take Worldwide',
+	released : '10-01-2023',
+        path : 'https://hd1.djjohal.com/320/515076/Khrey%20Khrey%20-%20Hunar%20Sidhu%20%20Gurlez%20Akhter%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729059/Gedi%20Route.jpg',
+        name : 'Gedi Route',
+        singer : 'Kulbir Jhinjer',
+ 	album : 'Super Beat & Records',
+	released : '06-01-2023',
+        path : 'https://hd1.djjohal.com/320/515022/Gedi%20Route%20-%20Kulbir%20Jhinjer%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729047/All%20Eyez%20On%20Me.jpg',
+        name : 'All Eyez On Me',
+        singer : 'Ranjit Bawa',
+ 	album : 'Ranjit Bawa Music',
+	released : '05-01-2023',
+        path : 'https://hd1.djjohal.com/320/515010/All%20Eyez%20On%20Me%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729022/2023%20FLOW.jpg',
+        name : '2023 FLOW',
+        singer : 'Sikander Kahlon',
+ 	album : 'Sikander Kahlon Music',
+	released : '01-01-2023',
+        path : 'https://hd1.djjohal.com/320/514985/2023%20FLOW%20-%20Sikander%20Kahlon%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729018/Da%20Bomb.jpg',
+        name : 'Da Bomb',
+        singer : 'Ellde Fazilka',
+ 	album : 'Ellde Fazilka Music',
+	released : '01-01-2023',
+        path : 'https://hd1.djjohal.com/320/514981/Da%20Bomb%20-%20Ellde%20Fazilka%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729017/Shokeen.jpg',
+        name : 'Shokeen',
+        singer : 'Fateh',
+ 	album : 'WinWin Records',
+	released : '30-12-2022',
+        path : 'https://hd1.djjohal.com/320/514980/Shokeen%20-%20Fateh%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729013/Hirni.jpg',
+        name : 'Hirni',
+        singer : 'Navaan Sandhu',
+ 	album : 'Husky Music',
+	released : '30-12-2022',
+        path : 'https://hd1.djjohal.com/320/514976/Hirni%20-%20Navaan%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/729012/Poh%20Da%20Mahina.jpg',
+        name : 'Poh Da Mahina',
+        singer : 'Kirat Gill',
+ 	album : 'Gringo Entertainments',
+	released : '30-12-2022',
+        path : 'https://hd1.djjohal.com/320/514975/Poh%20Da%20Mahina%20-%20Kirat%20Gill%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/728958/Players.jpg',
+        name : 'Players',
+        singer : 'Badshah & Karan Aujla',
+ 	album : 'Badshah Music',
+	released : '21-12-2022',
+        path : 'https://hd1.djjohal.com/320/514878/Players%20-%20Badshah%20%20Karan%20Aujla%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/728964/Me%20and%20You.jpg',
+        name : 'Me and You',
+        singer : 'Yuvraj',
+ 	album : 'Yuvraj Studios',
+	released : '21-12-2022',
+        path : 'https://hd1.djjohal.com/320/514884/Me%20and%20You%20-%20Yuvraj%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/728931/Our%20Beginning.jpg',
+        name : 'Our Beginning',
+        singer : 'Himmat Sandhu',
+ 	album : 'Majhail Creations',
+	released : '17-12-2022',
+        path : 'https://hd1.djjohal.com/320/514842/Our%20Beginning%20-%20Himmat%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
         image : 'https://lq.djjohal.com/covers/728917/2%20Percent.jpg',
         name : '2 Percent',
         singer : 'Garry Sandhu',
  	album : 'Fresh Media Records',
 	released : '16-12-2022',
         path : 'https://hd1.djjohal.com/320/514828/2%20Percent%20-%20Garry%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	{
+        image : 'https://lq.djjohal.com/covers/728881/Behja%20Behja.jpg',
+        name : 'Behja Behja',
+        singer : 'Dilpreet Dhillon',
+ 	album : 'Times Music',
+	released : '12-12-2022',
+        path : 'https://hd1.djjohal.com/320/514780/Behja%20Behja%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
      },
 	{
         image : 'https://lq.djjohal.com/covers/728913/Stampede.jpg',
@@ -83,13 +291,6 @@ const app = {
         singer : 'Harjot , Deepak Dhillon',
 	album : 'True Music',
         path : 'https://hd1.djjohal.com/320/514729/Lalkaare%20-%20Harjot%20(DJJOhAL.Com).mp3'
-    },
-	{
-        image : 'https://lq.djjohal.com/covers/728845/Landlord.jpg',
-        name : 'Landlord',
-        singer : 'Geeta Zaildar',
-	album : 'T-Series',
-        path : 'https://hd1.djjohal.com/320/514731/Landlord%20-%20Geeta%20Zaildar%20(DJJOhAL.Com).mp3'
     },
 	{
         image : 'https://lq.djjohal.com/covers/728833/Amsterdam.jpg',
@@ -200,7 +401,7 @@ const app = {
         singer : 'Varinder Brar',
 	album : 'Varinder Brar Music',
         path : 'https://hd1.djjohal.com/320/514076/Faizal%20-%20Varinder%20Brar%20(DJJOhAL.Com).mp3'
-    },
+    }, 
 	{
         image : 'https://lq.djjohal.com/covers/728738/So%20Mean.jpg',
         name : 'So Mean',
@@ -268,6 +469,12 @@ const app = {
         name : 'Geet Banuga',
         singer : 'Kaka',
         path : 'https://hd1.djjohal.com/320/514485/Geet%20Banuga%20-%20Kaka%20(DJJOhAL.Com).mp3'
+    },
+    {
+        image : 'https://lq.djjohal.com/covers/728455/Real%20Talks.jpg',
+        name : 'Real Talks',
+        singer : 'Dilbag Sandhu',
+        path : 'https://hd1.djjohal.com/320/514146/Real%20Talks%20-%20Dilbag%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
         image : 'https://lq.djjohal.com/covers/728673/Hustler.jpg',
@@ -549,7 +756,7 @@ const app = {
         path : 'https://hd1.djjohal.com/320/512220/94%20Flow%20-%20Big%20Boi%20Deep%20(DJJOhAL.Com).mp3'
     },
     {
-        image : 'https://lq.djjohal.com/covers/723247/Kaala%20Ghoda%20Ft.%20Divine%20(Original).jpg',
+        image : 'https://i.imgur.com/KjweaqA.jpg',
         name : 'Kaala Ghoda',
         singer : 'Amrit Maan Ft. Divine',
 	album : 'Times Music',
@@ -561,6 +768,13 @@ const app = {
         singer : 'Amrit Maan Ft. Bohemia',
 	album : 'Bang Music',
         path : 'https://hd1.djjohal.com/320/506266/Eddan%20Ni%20Ft%20Bohemia%20-%20Amrit%20Maan%20(DJJOhAL.Com).mp3'
+    },
+	{
+        image : 'https://lq.djjohal.com/covers/726624/Nadan%20Jehi%20Aas.jpg',
+        name : 'Nadan Jehi Aas',
+        singer : 'Satinder Sartaaj',
+	album : 'Firdaus Production',
+        path : 'https://hd1.djjohal.com/320/511790/Nadan%20Jehi%20Aas%20-%20Satinder%20Sartaaj%20(DJJOhAL.Com).mp3'
     },
     {
         image : 'https://lq.djjohal.com/covers/727137/LA.jpg',
@@ -784,6 +998,13 @@ const app = {
         path : 'https://hd1.djjohal.com/320/513819/Gaddi%20Vich%20-%20Dilpreet%20Dhillon%20(DJJOhAL.Com).mp3'
     },
     {
+        image : 'https://lq.djjohal.com/covers/723963/Signed%20to%20God.jpg',
+        name : 'Signed to God',
+        singer : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        path : 'https://hd1.djjohal.com/320/508305/Signed%20to%20God%20-%20Sidhu%20Moose%20Wala1%20(DJJOhAL.Com).mp3'
+    },
+    {
         image : 'https://lq.djjohal.com/covers/728117/Band%20Theke.jpg',
         name : 'Band Theke',
         singer : 'Jordan Sandhu',
@@ -826,11 +1047,25 @@ const app = {
         path : 'https://hd1.djjohal.com/320/512621/Kuwait%20Wala%20Koka%20-%20Gurman%20Sandhu%20%20Baani%20Sandhu%20(DJJOhAL.Com).mp3'
     },
     {
+        image : 'https://lq.djjohal.com/covers/727454/Levels.jpg',
+        name : 'Levels',
+        singer : 'Sidhu Moose Wala',
+	album : 'Sidhu Moose Wala',
+        path : 'https://hd1.djjohal.com/320/512816/Levels%20-%20Sidhu%20Moose%20Wala%20%20%20Sunny%20Malton%20(DJJOhAL.Com).mp3'
+    },
+    {
         image : 'https://lq.djjohal.com/covers/721433/Faraar%20Ft.%20Gur%20Sidhu.jpg',
         name : 'Faraar',
         singer : 'Jassa Dhillon Ft. Gur Sidhu',
 	album : 'Brown Town Music',
         path : 'https://hd1.djjohal.com/320/505234/Faraar%20Ft%20Gur%20Sidhu%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+    },
+    {
+        image : 'https://lq.djjohal.com/covers/727454/Levels.jpg',
+        name : 'These Days',
+        singer : 'Sidhu Moose Wala feat. Bohemia',
+	album : 'Sidhu Moose Wala',
+        path : 'https://hd1.djjohal.com/320/512916/These%20Days%20feat%20Bohemia%20-%20Sidhu%20Moose%20Wala%20(DJJOhAL.Com).mp3'
     },
     {
         image : 'https://lq.djjohal.com/covers/727060/Nain.jpg',
@@ -1000,7 +1235,9 @@ const app = {
 	album : 'Juke Dock',
         path : 'https://hd1.djjohal.com/320/508486/Balle%20Balle%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
     }
-  ],
+	
+	
+],
   setConfig: function (key, value) {
     this.config[key] = value;
     // (2/2) Uncomment the line below to use localStorage
