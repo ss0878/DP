@@ -28,6 +28,14 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
 	{
+        image : 'https://lq.djjohal.com/covers/729082/HUKAM.jpg',
+        name : 'HUKAM',
+        singer : 'Jassa Dhillon',
+ 	album : 'Jassa Dhillon Music',
+	released : '09-01-2023',
+        path : 'https://hd1.djjohal.com/320/515051/HUKAM%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+     },
+	  {
         image : 'https://lq.djjohal.com/covers/729116/Unique.jpg',
         name : 'Unique',
         singer : 'Jimmy Mahal',
