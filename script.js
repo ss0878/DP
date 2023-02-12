@@ -28,12 +28,60 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
 	{
+        image : 'https://lq.djjohal.com/covers/729328/Mohali%20Block.jpg',
+        name : 'Mohali Block',
+        singer : 'Sharry Maan',
+ 	album : 'T-series',
+	released : '11-02-2023',
+        path : 'https://hd1.djjohal.com/320/515453/Mohali%20Block%20-%20Sharry%20Maan%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729325/Mallo%20Malli.jpg',
+        name : 'Mallo Malli',
+        singer : 'Gurnam Bhullar',
+ 	album : 'Daimondstar Worldwide',
+	released : '11-02-2023',
+        path : 'https://hd1.djjohal.com/320/515450/Mallo%20Malli%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729324/Singh%20Vs%20State.jpg',
+        name : 'Singh Vs State',
+        singer : 'Jaskaran Riarr',
+ 	album : 'Meuzak Recors',
+	released : '11-02-2023',
+        path : 'https://hd1.djjohal.com/320/515450/Mallo%20Malli%20-%20Gurnam%20Bhullar%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729322/Queen.jpg',
+        name : 'Queen',
+        singer : 'Ft. Pav Dharia Fateh',
+ 	album : 'WinWin Records',
+	released : '10-02-2023',
+        path : 'https://hd1.djjohal.com/320/515446/Queen%20-%20Fateh%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729319/You%20Know.jpg',
+        name : 'You Know',
+        singer : 'Deep Jandu & Shipra Goyal',
+ 	album : 'Times Music',
+	released : '10-02-2023',
+        path : 'https://hd1.djjohal.com/320/515443/You%20Know%20-%20Deep%20Jandu%20%20Shipra%20Goyal%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729303/Supreme.jpg',
+        name : 'Supreme',
+        singer : 'Nseeb',
+ 	album : 'Nseeb Music',
+	released : '08-02-2023',
+        path : 'https://hd1.djjohal.com/320/515408/Supreme%20-%20Nseeb%20(DJJOhAL.Com).mp3'
+     },
+	  {
         image : 'https://lq.djjohal.com/covers/729082/HUKAM.jpg',
         name : 'HUKAM',
         singer : 'Jassa Dhillon',
  	album : 'Jassa Dhillon Music',
 	released : '09-01-2023',
-        path : 'https://hd1.djjohal.com/320/515051/HUKAM%20-%20Jassa%20Dhillon%20(DJJOhAL.Com).mp3'
+        path : 'https://hd1.djjohal.com/320/515448/Singh%20Vs%20State%20-%20Jaskaran%20Riarr%20(DJJOhAL.Com).mp3'
      },
 	  {
         image : 'https://lq.djjohal.com/covers/729116/Unique.jpg',
