@@ -76,6 +76,94 @@ const app = {
         path : 'https://hd1.djjohal.com/320/515408/Supreme%20-%20Nseeb%20(DJJOhAL.Com).mp3'
      },
 	  {
+        image : 'https://lq.djjohal.com/covers/729293/Naam%20Sunuga.jpg',
+        name : 'Naam Sunuga',
+        singer : 'Khan Bhaini',
+ 	album : 'Khan Bhaini Music',
+	released : '06-02-2023',
+        path : 'https://hd1.djjohal.com/320/515398/Naam%20Sunuga%20-%20Khan%20Bhaini%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729292/Retro.jpg',
+        name : 'Retro',
+        singer : 'Ranjit Bawa',
+ 	album : 'T-Series',
+	released : '06-02-2023',
+        path : 'https://hd1.djjohal.com/320/515397/Retro%20-%20Ranjit%20Bawa%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729288/Graveyard.jpg',
+        name : 'Graveyard',
+        singer : 'Veer Sandhu',
+ 	album : 'Sword Music',
+	released : '06-02-2023',
+        path : 'https://hd1.djjohal.com/320/515393/Graveyard%20-%20Veer%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729287/Tu%20Te%20Sharab.jpg',
+        name : 'Tu Te Sharab',
+        singer : 'Jordan Sandhu',
+ 	album : 'Times Music',
+	released : '05-02-2023',
+        path : 'https://hd1.djjohal.com/320/515392/Tu%20Te%20Sharab%20-%20Jordan%20Sandhu%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729280/Friend%20Zone.jpg',
+        name : 'Friend Zone',
+        singer : 'Jass Bajwa',
+ 	album : 'Jass Bajwa Music',
+	released : '04-02-2023',
+        path : 'https://hd1.djjohal.com/320/515385/Friend%20Zone%20-%20Jass%20Bajwa%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729263/No%20Reason.jpg',
+        name : 'No Reason',
+        singer : 'Ft. GD 47 Parmish Verma',
+ 	album : 'Parmish Verma Music',
+	released : '02-02-2023',
+        path : 'https://hd1.djjohal.com/320/515356/No%20Reason%20-%20Parmish%20Verma%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729253/Nazare.jpg',
+        name : 'Nazare',
+        singer : 'Sunny Randhawa',
+ 	album : 'Street Gang Music',
+	released : '01-02-2023',
+        path : 'https://hd1.djjohal.com/320/515340/Nazare%20-%20Sunny%20Randhawa%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729253/Nazare.jpg',
+        name : 'Nazare',
+        singer : 'Sunny Randhawa',
+ 	album : 'Street Gang Music',
+	released : '01-02-2023',
+        path : 'https://hd1.djjohal.com/320/515340/Nazare%20-%20Sunny%20Randhawa%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729193/Hustle%20Hard.jpg',
+        name : 'Hustle Hard',
+        singer : 'Babbal Rai',
+ 	album : 'Eyp Creations',
+	released : '27-01-2023',
+        path : 'https://hd1.djjohal.com/320/515251/Hustle%20Hard%20-%20Babbal%20Rai%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729178/ME.jpg',
+        name : 'ME',
+        singer : 'Nijjar',
+ 	album : 'Nijjar Inc',
+	released : '26-01-2023',
+        path : 'https://hd1.djjohal.com/320/515206/ME%20-%20Nijjar%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729123/Skills.jpg',
+        name : 'Skills',
+        singer : 'Tyson Sidhu',
+ 	album : 'Tyson Sidhu Music',
+	released : '18-01-2023',
+        path : 'https://hd1.djjohal.com/320/515117/Skills%20-%20Tyson%20Sidhu%20(DJJOhAL.Com).mp3'
+     },
+	  {
         image : 'https://lq.djjohal.com/covers/729082/HUKAM.jpg',
         name : 'HUKAM',
         singer : 'Jassa Dhillon',
