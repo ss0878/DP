@@ -132,14 +132,6 @@ const app = {
         path : 'https://hd1.djjohal.com/320/515340/Nazare%20-%20Sunny%20Randhawa%20(DJJOhAL.Com).mp3'
      },
 	  {
-        image : 'https://lq.djjohal.com/covers/729253/Nazare.jpg',
-        name : 'Nazare',
-        singer : 'Sunny Randhawa',
- 	album : 'Street Gang Music',
-	released : '01-02-2023',
-        path : 'https://hd1.djjohal.com/320/515340/Nazare%20-%20Sunny%20Randhawa%20(DJJOhAL.Com).mp3'
-     },
-	  {
         image : 'https://lq.djjohal.com/covers/729193/Hustle%20Hard.jpg',
         name : 'Hustle Hard',
         singer : 'Babbal Rai',
