@@ -28,6 +28,54 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
 	{
+        image : 'https://lq.djjohal.com/covers/729881/Waaka.jpg',
+        name : 'Waaka',
+        singer : 'Nirvair Pannu',
+ 	album : 'Juke Dock',
+	released : '05-05-2023',
+        path : 'https://hd1.djjohal.com/320/516164/Waaka%20-%20Nirvair%20Pannu%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729874/Hard%20Knock%20Life.jpg',
+        name : 'Hard Knock Life',
+        singer : 'Deep Jandu',
+ 	album : 'True Rebellion Music',
+	released : '03-05-2023',
+        path : 'https://hd1.djjohal.com/320/516157/Hard%20Knock%20Life%20-%20Deep%20Jandu%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729868/We%20Made%20It.jpg',
+        name : 'We Made It',
+        singer : 'Parmish Verma',
+ 	album : 'Parmish Verma Films',
+	released : '03-05-2023',
+        path : 'https://hd1.djjohal.com/320/516151/We%20Made%20It%20-%20Parmish%20Verma%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729821/Death%20Row.jpg',
+        name : 'Death Row',
+        singer : 'Ninja',
+ 	album : 'Khaki Entertainment',
+	released : '27-04-2023',
+        path : 'https://hd1.djjohal.com/320/516091/Death%20Row%20-%20Ninja%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729819/Busy%20Getting%20Paid.jpg',
+        name : 'Busy Getting Paid',
+        singer : 'Ammy Virk Ft. DIVINE',
+ 	album : 'Universal Music India',
+	released : '26-04-2023',
+        path : 'https://hd1.djjohal.com/320/516089/Busy%20Getting%20Paid%20-%20Ammy%20Virk%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/729779/Diff.jpg',
+        name : 'Diff',
+        singer : 'Tyson Sidhu',
+ 	album : 'Tyson Sidhu Music',
+	released : '23-04-2023',
+        path : 'https://hd1.djjohal.com/320/516022/Diff%20-%20Tyson%20Sidhu%20(DJJOhAL.Com).mp3'
+     },
+	  {
         image : 'https://lq.djjohal.com/covers/729328/Mohali%20Block.jpg',
         name : 'Mohali Block',
         singer : 'Sharry Maan',
