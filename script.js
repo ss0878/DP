@@ -28,6 +28,22 @@ const app = {
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
 	{
+        image : 'https://lq.djjohal.com/covers/731302/Conductor.jpg',
+        name : 'Conductor',
+        singer : 'Khazala',
+ 	album : 'Khazala Music',
+	released : '29-12-2023',
+        path : 'https://hd1.djjohal.com/320/518360/Conductor%20-%20Khazala%20(DJJOhAL.Com).mp3'
+     },
+	  {
+        image : 'https://lq.djjohal.com/covers/731313/Qila%20Anandpur%20Da.jpg',
+        name : 'Qila Anandpur Da',
+        singer : 'Nimrat Khaira',
+ 	album : 'Panj-aab Records',
+	released : '30-12-2023',
+        path : 'https://hd1.djjohal.com/320/518378/Qila%20Anandpur%20Da%20-%20Nimrat%20Khaira%20(DJJOhAL.Com).mp3'
+     },
+	  {
         image : 'https://lq.djjohal.com/covers/729881/Waaka.jpg',
         name : 'Waaka',
         singer : 'Nirvair Pannu',
